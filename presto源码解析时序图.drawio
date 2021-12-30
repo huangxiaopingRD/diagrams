@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T07:52:00.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="GCslmaV4nZmMkk8YokBx" version="16.1.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-12-30T07:56:19.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="W5z4THtEqOP_R_7Ya52N" version="16.1.0" type="github" pages="9">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="presto CLI方式提交查询源码分析时序图">
     <mxGraphModel dx="946" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1868,6 +1868,12 @@
             <mxPoint x="640" y="230" as="sourcePoint" />
             <mxPoint x="800" y="230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-27" value="DC 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="65" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-28" value="DC 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="540" y="38" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
