@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T07:40:15.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="wQzRtIWr7eKQqdTD64l0" version="16.0.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-30T07:52:00.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="GCslmaV4nZmMkk8YokBx" version="16.1.0" type="github" pages="9">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="presto CLI方式提交查询源码分析时序图">
-    <mxGraphModel dx="880" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1655,7 +1655,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gSQZhW-miLUizKyu8Xmt" name="dc connector限流">
-    <mxGraphModel dx="1480" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="vFJHUjQJTymSPh9lDkLy-0" />
         <mxCell id="vFJHUjQJTymSPh9lDkLy-1" parent="vFJHUjQJTymSPh9lDkLy-0" />
@@ -1782,6 +1782,92 @@
         </mxCell>
         <mxCell id="vFJHUjQJTymSPh9lDkLy-106" value="限流器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vFJHUjQJTymSPh9lDkLy-104" vertex="1">
           <mxGeometry x="7" y="12" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5_qQRSbp37kAYfjiEELL" name="dc connector runtime filter">
+    <mxGraphModel dx="1186" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="gjFfvrLbaU-p6qT2gFyZ-0" />
+        <mxCell id="gjFfvrLbaU-p6qT2gFyZ-1" parent="gjFfvrLbaU-p6qT2gFyZ-0" />
+        <mxCell id="32amEw_DukJGSg7SwaK7-1" value="dc connector&amp;nbsp; dynamic filter&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="30" y="40" width="330" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="70" y="80" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="60" y="290" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-6" value="Coordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="77" y="83" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-8" value="&lt;span&gt;DynamicFilterService&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="125" y="113" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="210" y="290" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-11" value="Worker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="60" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-12" value="Worker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="210" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-13" value="Hive Connector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="65" y="390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-14" value="DC Connector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="215" y="390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="510" y="40" width="330" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="550" y="70" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-17" value="Coordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="560" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-18" value="&lt;span&gt;DynamicFilterService&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="597.5" y="100" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="670" y="300" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-20" value="Hive Connector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="675" y="400" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-21" value="Worker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gjFfvrLbaU-p6qT2gFyZ-1">
+          <mxGeometry x="670" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-23" value="push filter" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="gjFfvrLbaU-p6qT2gFyZ-1" source="32amEw_DukJGSg7SwaK7-13" target="32amEw_DukJGSg7SwaK7-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="320" as="sourcePoint" />
+            <mxPoint x="90" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-24" value="pull filter" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.556;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gjFfvrLbaU-p6qT2gFyZ-1" source="32amEw_DukJGSg7SwaK7-8" target="32amEw_DukJGSg7SwaK7-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="200" as="sourcePoint" />
+            <mxPoint x="380" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-25" value="send filter" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.9;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="gjFfvrLbaU-p6qT2gFyZ-1" source="32amEw_DukJGSg7SwaK7-14" target="32amEw_DukJGSg7SwaK7-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="400" as="sourcePoint" />
+            <mxPoint x="490" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32amEw_DukJGSg7SwaK7-26" value="apply filter" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.936;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gjFfvrLbaU-p6qT2gFyZ-1" source="32amEw_DukJGSg7SwaK7-18" target="32amEw_DukJGSg7SwaK7-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="640" y="230" as="sourcePoint" />
+            <mxPoint x="800" y="230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
