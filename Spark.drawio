@@ -1,52 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T08:08:36.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="RD1g04taTuYHuaoCQOww" version="17.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-19T15:35:01.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="nqmIU3mi8hS5hsAgeiH5" version="17.4.5" type="github" pages="5">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
-    <mxGraphModel dx="1214" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1214" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-1" value="Create Table为例子" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-1" value="Create Table为例子" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="640" y="20" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-4" value="开始" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="IiXLcPpYvkYv-F2IjEYs-1" target="IiXLcPpYvkYv-F2IjEYs-2">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-4" value="开始" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="IiXLcPpYvkYv-F2IjEYs-1" target="IiXLcPpYvkYv-F2IjEYs-2" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="90" as="sourcePoint" />
             <mxPoint x="130" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-2" value="ResolveCatalogs" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-2" value="ResolveCatalogs" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="20" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-5" value="CreateV2Table" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-5" value="CreateV2Table" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="900" y="20" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-6" value="apply：case CreateTableStatement" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="IiXLcPpYvkYv-F2IjEYs-5">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-6" value="apply：case CreateTableStatement" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="IiXLcPpYvkYv-F2IjEYs-5" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-69" y="110" as="sourcePoint" />
             <mxPoint x="50.5" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-7" value="DataSourceV2Strategy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-7" value="DataSourceV2Strategy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1050" y="20" width="130" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-8" value="apply： case CreateV2Table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="IiXLcPpYvkYv-F2IjEYs-7">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-8" value="apply： case CreateV2Table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="IiXLcPpYvkYv-F2IjEYs-7" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-69" y="139" as="sourcePoint" />
             <mxPoint x="50.5" y="139" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-9" value="CreateTableExec" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-9" value="CreateTableExec" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1190" y="20" width="100" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-10" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="IiXLcPpYvkYv-F2IjEYs-9">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-10" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="IiXLcPpYvkYv-F2IjEYs-9" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-69" y="163" as="sourcePoint" />
             <mxPoint x="50.5" y="163" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IiXLcPpYvkYv-F2IjEYs-9">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="IiXLcPpYvkYv-F2IjEYs-9" vertex="1">
           <mxGeometry x="45" y="190" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-12" value="run" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IiXLcPpYvkYv-F2IjEYs-11" parent="IiXLcPpYvkYv-F2IjEYs-9">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-12" value="run" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="IiXLcPpYvkYv-F2IjEYs-9" target="IiXLcPpYvkYv-F2IjEYs-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="180" as="sourcePoint" />
             <Array as="points">
@@ -54,28 +54,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-13" value="TableCatalog&lt;br&gt;(V2SessionCatalog/JDBCCatalog)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-13" value="TableCatalog&lt;br&gt;(V2SessionCatalog/JDBCCatalog)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1340" y="20" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-14" value="tableExists/createTable" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="IiXLcPpYvkYv-F2IjEYs-13" source="IiXLcPpYvkYv-F2IjEYs-9">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-14" value="tableExists/createTable" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="IiXLcPpYvkYv-F2IjEYs-13" source="IiXLcPpYvkYv-F2IjEYs-9" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-69" y="224" as="sourcePoint" />
             <mxPoint x="50.5" y="224" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-15" value="V2SessionCatalog" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-15" value="V2SessionCatalog" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1460" y="20" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-16" value="通过ExternalCatalog(Hive ExternalCatalog)，&lt;br&gt;调用HiveClient完成createTable逻辑" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="IiXLcPpYvkYv-F2IjEYs-15">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-16" value="通过ExternalCatalog(Hive ExternalCatalog)，&lt;br&gt;调用HiveClient完成createTable逻辑" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="IiXLcPpYvkYv-F2IjEYs-15" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-220.5" y="266" as="sourcePoint" />
             <mxPoint x="50.5" y="266" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-17" value="JDBCCatalog" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-17" value="JDBCCatalog" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1570" y="20" width="100" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="IiXLcPpYvkYv-F2IjEYs-18" value="通过JDBC执行SQL完成create table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="IiXLcPpYvkYv-F2IjEYs-17">
+        <mxCell id="IiXLcPpYvkYv-F2IjEYs-18" value="通过JDBC执行SQL完成create table" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="IiXLcPpYvkYv-F2IjEYs-17" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-330.5" y="309" as="sourcePoint" />
             <mxPoint x="50.5" y="309" as="targetPoint" />
@@ -494,49 +494,57 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h3VQdSuoeIVPOyo6PrrO" name="multi DataSource">
-    <mxGraphModel dx="1214" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1214" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-1" value="Spark SQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-1" value="Spark SQL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="70" width="690" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-2" value="Hbase Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-2" value="Hbase Plugin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="210" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-3" value="Kafka Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-3" value="Kafka Plugin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="210" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-4" value="JDBC Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-4" value="JDBC Plugin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="210" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-5" value="TfRecord Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-5" value="TfRecord Plugin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="210" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-6" value="xxxx Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-6" value="xxxx Plugin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="210" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-7" value="DataSource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-7" value="DataSource" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="140" width="690" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-8" value="Unify Catalog （Hive MetaStore（hive client 2/ 3))" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-8" value="Unify Catalog （Hive MetaStore（hive client 2/ 3))" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="963.75" y="182.25" width="282.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-9" value="Hbase Cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-9" value="Hbase Cluster" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="278.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-10" value="Kafka Cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-10" value="Kafka Cluster" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="278.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-11" value="MySQL / Tidb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-11" value="MySQL / Tidb" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="278.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-12" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-12" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="278.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-13" value="xxxx&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_f_W4A9Qpc6MXgXcsGYV-13" value="xxxx&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="278.5" width="130" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jvEObpghnzyemqG9OYH5" name="V2CommandExec">
+    <mxGraphModel dx="1214" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
