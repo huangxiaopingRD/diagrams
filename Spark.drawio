@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T10:12:58.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ILKZTF54lt6DNh6aVQ-U" version="20.4.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-29T10:14:46.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xMAm0ISwt512zb0XCYx9" version="20.4.0" type="github" pages="6">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1371" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -695,7 +695,7 @@
         <mxCell id="KYRq_lyxkh2cuim9OigJ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KYRq_lyxkh2cuim9OigJ-5" target="KYRq_lyxkh2cuim9OigJ-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KYRq_lyxkh2cuim9OigJ-5" value="Requires username and password&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KYRq_lyxkh2cuim9OigJ-5" value="Requires username and password, and other necessary parameters" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="1470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KYRq_lyxkh2cuim9OigJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KYRq_lyxkh2cuim9OigJ-8" target="KYRq_lyxkh2cuim9OigJ-13">
