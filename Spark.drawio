@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T08:53:44.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="VywUXkX-x85DJfnahA85" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-29T09:02:03.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uYNjTYFvApVKTwQQybzI" version="20.8.23" type="github" pages="8">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1222" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1174,7 +1174,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eULvkYKV-C5AZm1C_feU" name="Percept">
-    <mxGraphModel dx="1436" dy="4083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1462" dy="4071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1360,8 +1360,8 @@
             <mxPoint x="399" y="1802" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-66" value="notebook" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1920" width="60" height="30" as="geometry" />
+        <mxCell id="hQAuVuB58w43WMeSICG7-66" value="Notebook" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1920" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-67" value="shuffle_analysis.ipynb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="2000" width="570" height="120" as="geometry" />
@@ -1434,6 +1434,9 @@
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-90" value="noraml task: notebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-87">
           <mxGeometry y="90" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hQAuVuB58w43WMeSICG7-91" value="Batch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1180" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
