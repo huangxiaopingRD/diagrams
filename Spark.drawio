@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T09:06:57.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Y5KSIx_DpqrHc3gboPWR" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-29T09:10:34.062Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="s2MSl8ph7GpzA_t3hkg6" version="20.8.23" type="github" pages="8">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1222" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1174,7 +1174,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eULvkYKV-C5AZm1C_feU" name="Percept">
-    <mxGraphModel dx="1462" dy="4071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1436" dy="4083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1297,7 +1297,7 @@
         <mxCell id="hQAuVuB58w43WMeSICG7-39" value="output: clickhouse table(di_percept.&lt;span style=&quot;background-color: initial;&quot;&gt;application_information_table&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-37">
           <mxGeometry y="60" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-40" value="noraml task:&amp;nbsp;SparkApplicationMetricsOverallAnalyzerImpl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-37">
+        <mxCell id="hQAuVuB58w43WMeSICG7-40" value="noraml task:&amp;nbsp;SparkApplicationMetricsOverallAnalyzerImpl、T+1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-37">
           <mxGeometry y="90" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-41" value="" style="endArrow=classic;html=1;rounded=0;fontSize=48;exitX=0.146;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hQAuVuB58w43WMeSICG7-8">
@@ -1327,7 +1327,7 @@
         <mxCell id="hQAuVuB58w43WMeSICG7-53" value="input: percept.spark_application_hudi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-52">
           <mxGeometry y="30" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-55" value="noraml task" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-52">
+        <mxCell id="hQAuVuB58w43WMeSICG7-55" value="noraml task：T+1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-52">
           <mxGeometry y="60" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-56" value="cluster_intermediate" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
@@ -1372,7 +1372,7 @@
         <mxCell id="hQAuVuB58w43WMeSICG7-69" value="output: clickhouse table(di_percept.percept_shuffle、di_percept.percept_shuffle_stage&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-67">
           <mxGeometry y="60" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-70" value="noraml task: notebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-67">
+        <mxCell id="hQAuVuB58w43WMeSICG7-70" value="noraml task: notebook、T+1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-67">
           <mxGeometry y="90" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-71" value="dataflow_analysis.ipynb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
@@ -1384,7 +1384,7 @@
         <mxCell id="hQAuVuB58w43WMeSICG7-73" value="output: clickhouse table(di_percept.&amp;nbsp;percept_dataflow&lt;span style=&quot;background-color: initial;&quot;&gt;、di_percept.&lt;/span&gt;&amp;nbsp;percept_dataflow_error&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-71">
           <mxGeometry y="60" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-74" value="noraml task: notebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-71">
+        <mxCell id="hQAuVuB58w43WMeSICG7-74" value="noraml task: notebook、T+1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-71">
           <mxGeometry y="90" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-75" value="failure_analysis.ipynb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
@@ -1396,7 +1396,7 @@
         <mxCell id="hQAuVuB58w43WMeSICG7-77" value="output: clickhouse table(di_percept.&amp;nbsp;failure_analysis&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-75">
           <mxGeometry y="60" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-78" value="noraml task: notebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-75">
+        <mxCell id="hQAuVuB58w43WMeSICG7-78" value="noraml task: notebook、T+1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-75">
           <mxGeometry y="90" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-79" value="yarn_auditlog_analysis.ipynb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
@@ -1408,7 +1408,7 @@
         <mxCell id="hQAuVuB58w43WMeSICG7-81" value="output: notebook dashboard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-79">
           <mxGeometry y="60" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-82" value="noraml task: notebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-79">
+        <mxCell id="hQAuVuB58w43WMeSICG7-82" value="noraml task: notebook、T+1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-79">
           <mxGeometry y="90" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-83" value="spark_version_distribution.ipynb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
@@ -1420,7 +1420,7 @@
         <mxCell id="hQAuVuB58w43WMeSICG7-85" value="output: hive table(percept.ads_spark_application_version&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-83">
           <mxGeometry y="60" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-86" value="noraml task: notebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-83">
+        <mxCell id="hQAuVuB58w43WMeSICG7-86" value="noraml task: notebook、T+1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-83">
           <mxGeometry y="90" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-87" value="sre_spark_info.ipynb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
@@ -1432,7 +1432,7 @@
         <mxCell id="hQAuVuB58w43WMeSICG7-89" value="output: clickhouse table(percept_di_spark_jobs.spark_jobs&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-87">
           <mxGeometry y="60" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-90" value="noraml task: notebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-87">
+        <mxCell id="hQAuVuB58w43WMeSICG7-90" value="noraml task: notebook、T+1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-87">
           <mxGeometry y="90" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-91" value="Batch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
