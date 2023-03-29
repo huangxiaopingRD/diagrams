@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T08:10:54.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_51ZnJ_BPQG7FbQZCuK3" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-29T08:14:43.602Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_TMPFzXuYDDDIsukHFIR" version="20.8.23" type="github" pages="8">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1222" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1364,16 +1364,16 @@
           <mxGeometry x="330" y="1910" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-67" value="shuffle_analysis.ipynb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="2000" width="350" height="120" as="geometry" />
+          <mxGeometry x="60" y="2000" width="570" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-68" value="input: percept.spark_application_hudi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-67">
-          <mxGeometry y="30" width="350" height="30" as="geometry" />
+        <mxCell id="hQAuVuB58w43WMeSICG7-68" value="input: hudi table(percept.spark_application_hudi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-67">
+          <mxGeometry y="30" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-69" value="output: hbase table(DI:&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-67">
-          <mxGeometry y="60" width="350" height="30" as="geometry" />
+        <mxCell id="hQAuVuB58w43WMeSICG7-69" value="output: clickhouse table(di_percept.percept_shuffle、di_percept.percept_shuffle_stage&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-67">
+          <mxGeometry y="60" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-70" value="noraml task: nottebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-67">
-          <mxGeometry y="90" width="350" height="30" as="geometry" />
+        <mxCell id="hQAuVuB58w43WMeSICG7-70" value="noraml task: notebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-67">
+          <mxGeometry y="90" width="570" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
