@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T04:06:09.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZXJCidz6mHU1tQKbuMW7" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-29T06:23:11.132Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="AJQZScyH1kGofGIJFOgJ" version="20.8.23" type="github" pages="8">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1222" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1174,12 +1174,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eULvkYKV-C5AZm1C_feU" name="Percept">
-    <mxGraphModel dx="1436" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1436" dy="4083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hQAuVuB58w43WMeSICG7-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=48;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="1250" height="720" as="geometry" />
+        </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-3" value="&lt;h1&gt;data workflows&lt;br&gt;&lt;/h1&gt;&lt;div&gt;描述整个percept的数据流图，包括上下游的关系，任务的调度及部署等&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="60" width="190" height="120" as="geometry" />
+          <mxGeometry x="40" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-5" value="fetcher_sg" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="190" width="404" height="120" as="geometry" />
@@ -1230,7 +1233,7 @@
           <mxGeometry y="90" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-21" value="hbo_sg" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="760" width="350" height="120" as="geometry" />
+          <mxGeometry x="190" y="1130" width="350" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-22" value="input:&amp;nbsp;&amp;nbsp;kafka topic(di.yarn_rm_audit_log)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-21">
           <mxGeometry y="30" width="350" height="30" as="geometry" />
@@ -1278,6 +1281,21 @@
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-32" value="continuous" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rounded=1;" connectable="0" vertex="1" parent="hQAuVuB58w43WMeSICG7-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hQAuVuB58w43WMeSICG7-36" value="Streaming" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="670" y="114" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hQAuVuB58w43WMeSICG7-37" value="analyzer_overall" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1300" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hQAuVuB58w43WMeSICG7-38" value="input:&amp;nbsp; hudi table (percept.spark_application_hudi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-37">
+          <mxGeometry y="30" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hQAuVuB58w43WMeSICG7-39" value="output: clickhouse table(di_percept.&lt;span style=&quot;background-color: initial;&quot;&gt;application_information_table&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-37">
+          <mxGeometry y="60" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hQAuVuB58w43WMeSICG7-40" value="noraml task:&amp;nbsp;SparkApplicationMetricsOverallAnalyzerImpl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-37">
+          <mxGeometry y="90" width="440" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
