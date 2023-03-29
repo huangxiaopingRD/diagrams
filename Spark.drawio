@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T09:02:03.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uYNjTYFvApVKTwQQybzI" version="20.8.23" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-29T09:06:57.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Y5KSIx_DpqrHc3gboPWR" version="20.8.23" type="github" pages="8">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1222" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1417,7 +1417,7 @@
         <mxCell id="hQAuVuB58w43WMeSICG7-84" value="input: hudi table(percept.spark_application_hudi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-83">
           <mxGeometry y="30" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hQAuVuB58w43WMeSICG7-85" value="output: hive table(percept&lt;span style=&quot;font-size: 14px; box-sizing: border-box; color: rgb(102, 102, 102);&quot; class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 14px; box-sizing: border-box;&quot; class=&quot;n&quot;&gt;ads_spark_application_version&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-83">
+        <mxCell id="hQAuVuB58w43WMeSICG7-85" value="output: hive table(percept.ads_spark_application_version&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-83">
           <mxGeometry y="60" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-86" value="noraml task: notebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hQAuVuB58w43WMeSICG7-83">
