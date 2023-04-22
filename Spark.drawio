@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T10:29:38.689Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="RGwC50S6f7-drDwjCuEB" version="21.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-22T17:52:59.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gMIkGlijemw6lC7r4uFd" version="21.1.8" type="github" pages="9">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
-    <mxGraphModel dx="1512" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -255,7 +255,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5P99UEPK_KNVvHkSd_8D" name="Catalog系谱图">
-    <mxGraphModel dx="1462" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -662,7 +662,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JUiEKcfdjby-6tYVQ9d1" name="DataSource系谱图">
-    <mxGraphModel dx="1455" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -670,7 +670,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h3VQdSuoeIVPOyo6PrrO" name="multi DataSource">
-    <mxGraphModel dx="1455" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1437,6 +1437,44 @@
         </mxCell>
         <mxCell id="hQAuVuB58w43WMeSICG7-91" value="Batch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" parent="1" vertex="1">
           <mxGeometry x="580" y="1180" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nkWgDV8RXNFLvfwFPxfb" name="Hudi">
+    <mxGraphModel dx="1482" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wUtlw0VkEphOAubVgje4-1" value="InsertIntoHoodieTableCommand" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUtlw0VkEphOAubVgje4-2" value="HoodieSparkSqlWriter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUtlw0VkEphOAubVgje4-3" value="DataSourceUtils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUtlw0VkEphOAubVgje4-4" value="SparkRDDWriteClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUtlw0VkEphOAubVgje4-5" value="HoodieSparkCopyOnWriteTable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUtlw0VkEphOAubVgje4-6" value="SparkUpsertCommitActionExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="50" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUtlw0VkEphOAubVgje4-7" value="SparkUpsertCommitActionExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="50" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUtlw0VkEphOAubVgje4-8" value="HoodieWriteHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUtlw0VkEphOAubVgje4-9" value="BaseSparkCommitActionExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="50" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wUtlw0VkEphOAubVgje4-10" value="SparkLazyInsertIterable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="50" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
