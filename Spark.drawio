@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T09:01:55.320Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="K97qMoYKZr_wYEhj5s2z" version="21.2.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-07-18T11:07:56.924Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ne5dI9Sbv00ydPlXUJ_E" version="21.3.5" type="github" pages="10">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
-    <mxGraphModel dx="1482" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1462" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1174,7 +1174,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eULvkYKV-C5AZm1C_feU" name="Percept">
-    <mxGraphModel dx="1482" dy="4095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1462" dy="4071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1438,28 +1438,28 @@
         <mxCell id="hQAuVuB58w43WMeSICG7-91" value="Batch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" parent="1" vertex="1">
           <mxGeometry x="580" y="1180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3je443hFRfFi6MkXPk4t-1" value="analyzer_HBO_metric" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3je443hFRfFi6MkXPk4t-1" value="analyzer_HBO_metric" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="611" width="350" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3je443hFRfFi6MkXPk4t-2" value="input: hudi table(percept.&amp;nbsp;spark_application_hudi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3je443hFRfFi6MkXPk4t-1">
+        <mxCell id="3je443hFRfFi6MkXPk4t-2" value="input: hudi table(percept.&amp;nbsp;spark_application_hudi)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3je443hFRfFi6MkXPk4t-1" vertex="1">
           <mxGeometry y="30" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3je443hFRfFi6MkXPk4t-3" value="output: hudi table(percept.application_hbo_metric&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3je443hFRfFi6MkXPk4t-1">
+        <mxCell id="3je443hFRfFi6MkXPk4t-3" value="output: hudi table(percept.application_hbo_metric&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3je443hFRfFi6MkXPk4t-1" vertex="1">
           <mxGeometry y="60" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3je443hFRfFi6MkXPk4t-4" value="streaming task:&amp;nbsp;ApplicationAnalyzerHBOImpl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3je443hFRfFi6MkXPk4t-1">
+        <mxCell id="3je443hFRfFi6MkXPk4t-4" value="streaming task:&amp;nbsp;ApplicationAnalyzerHBOImpl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3je443hFRfFi6MkXPk4t-1" vertex="1">
           <mxGeometry y="90" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3je443hFRfFi6MkXPk4t-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="3je443hFRfFi6MkXPk4t-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="681" as="sourcePoint" />
             <mxPoint x="1220" y="681" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3je443hFRfFi6MkXPk4t-6" value="continuous" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rounded=1;" connectable="0" vertex="1" parent="3je443hFRfFi6MkXPk4t-5">
+        <mxCell id="3je443hFRfFi6MkXPk4t-6" value="continuous" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rounded=1;" parent="3je443hFRfFi6MkXPk4t-5" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3je443hFRfFi6MkXPk4t-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=48;exitX=0.034;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hQAuVuB58w43WMeSICG7-12" target="3je443hFRfFi6MkXPk4t-2">
+        <mxCell id="3je443hFRfFi6MkXPk4t-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=48;exitX=0.034;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hQAuVuB58w43WMeSICG7-12" target="3je443hFRfFi6MkXPk4t-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="275" y="460" as="sourcePoint" />
             <mxPoint x="376" y="551" as="targetPoint" />
@@ -1469,39 +1469,62 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nkWgDV8RXNFLvfwFPxfb" name="Hudi">
-    <mxGraphModel dx="1482" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1462" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wUtlw0VkEphOAubVgje4-1" value="InsertIntoHoodieTableCommand" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wUtlw0VkEphOAubVgje4-1" value="InsertIntoHoodieTableCommand" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="50" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wUtlw0VkEphOAubVgje4-2" value="HoodieSparkSqlWriter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wUtlw0VkEphOAubVgje4-2" value="HoodieSparkSqlWriter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="50" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wUtlw0VkEphOAubVgje4-3" value="DataSourceUtils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wUtlw0VkEphOAubVgje4-3" value="DataSourceUtils" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="50" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wUtlw0VkEphOAubVgje4-4" value="SparkRDDWriteClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wUtlw0VkEphOAubVgje4-4" value="SparkRDDWriteClient" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="50" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wUtlw0VkEphOAubVgje4-5" value="HoodieSparkCopyOnWriteTable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wUtlw0VkEphOAubVgje4-5" value="HoodieSparkCopyOnWriteTable" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="50" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wUtlw0VkEphOAubVgje4-6" value="SparkUpsertCommitActionExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wUtlw0VkEphOAubVgje4-6" value="SparkUpsertCommitActionExecutor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="50" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wUtlw0VkEphOAubVgje4-7" value="SparkUpsertCommitActionExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wUtlw0VkEphOAubVgje4-7" value="SparkUpsertCommitActionExecutor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1190" y="50" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wUtlw0VkEphOAubVgje4-8" value="HoodieWriteHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wUtlw0VkEphOAubVgje4-8" value="HoodieWriteHelper" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="50" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wUtlw0VkEphOAubVgje4-9" value="BaseSparkCommitActionExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wUtlw0VkEphOAubVgje4-9" value="BaseSparkCommitActionExecutor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1570" y="50" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wUtlw0VkEphOAubVgje4-10" value="SparkLazyInsertIterable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wUtlw0VkEphOAubVgje4-10" value="SparkLazyInsertIterable" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1780" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rxkksYw_DfTll25PqGfm" name="HBO">
+    <mxGraphModel dx="1462" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LjNdMehcAKFYtK15x8xL-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LjNdMehcAKFYtK15x8xL-2" value="痛点：调优难，内存浪费，大促任务" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LjNdMehcAKFYtK15x8xL-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="250" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjNdMehcAKFYtK15x8xL-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="90" width="590" height="590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
