@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T11:07:56.924Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ne5dI9Sbv00ydPlXUJ_E" version="21.3.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-07-19T02:38:19.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0-qUptCHbqtmg_Ngm8eW" version="21.3.5" type="github" pages="10">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1462" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1524,7 +1524,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LjNdMehcAKFYtK15x8xL-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="420" y="90" width="590" height="590" as="geometry" />
+          <mxGeometry x="400" y="90" width="610" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="LjNdMehcAKFYtK15x8xL-6" value="HBO解决方案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="215" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
