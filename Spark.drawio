@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T09:12:56.237Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ejFSkG0T9ZVbeeoh15KS" version="21.3.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-09-20T02:17:20.187Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="NXOs63DD0XX-8uHZ_5YJ" version="21.6.2" type="github" pages="10">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
-    <mxGraphModel dx="1222" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -255,7 +255,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5P99UEPK_KNVvHkSd_8D" name="Catalog系谱图">
-    <mxGraphModel dx="1222" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="3105" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -661,16 +661,62 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="JUiEKcfdjby-6tYVQ9d1" name="DataSource系谱图">
-    <mxGraphModel dx="1222" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+  <diagram id="JUiEKcfdjby-6tYVQ9d1" name="Spark源码解析">
+    <mxGraphModel dx="1080" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Spark File Commit Protocol&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-2" value="FileCommitProtocol" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-5" value="+&amp;nbsp;setupJob(): Unit&lt;br&gt;+ commitJob&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;+ abortJob(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+&amp;nbsp;setupTask(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ commitTask(): Unit&lt;br&gt;+&amp;nbsp;abortTask(): Unit&lt;br&gt;+&amp;nbsp;deleteWithJob(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+&amp;nbsp;newTaskTempFile(): Unit&lt;br&gt;+&amp;nbsp;newTaskTempFileAbsPath(): Unit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sXbvulRh3RuNyMxtwsCi-2">
+          <mxGeometry y="26" width="200" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXbvulRh3RuNyMxtwsCi-6" target="sXbvulRh3RuNyMxtwsCi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-6" value="FileCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="449" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-9" value="ManifestFileCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="140" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXbvulRh3RuNyMxtwsCi-10" target="sXbvulRh3RuNyMxtwsCi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-10" value="HadoopMapReduceCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="549" y="140" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-11" value="SQLHadoopMapReduceCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="449" y="233" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-12" value="HadoopMapRedCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="679" y="233" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sXbvulRh3RuNyMxtwsCi-10" target="sXbvulRh3RuNyMxtwsCi-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="190" as="sourcePoint" />
+            <mxPoint x="569" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509" y="80" as="sourcePoint" />
+            <mxPoint x="368" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="509" y="110" />
+              <mxPoint x="368" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="h3VQdSuoeIVPOyo6PrrO" name="multi DataSource">
-    <mxGraphModel dx="1222" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -896,7 +942,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jvEObpghnzyemqG9OYH5" name="V2CommandExec">
-    <mxGraphModel dx="1222" dy="5452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="5470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -964,7 +1010,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k3klcz-6vJa_4hlZmR7w" name="Codegen">
-    <mxGraphModel dx="1455" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1083,7 +1129,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UgVbKG9nNGSAkQY_JOMT" name="Spark trash">
-    <mxGraphModel dx="1462" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1174,7 +1220,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eULvkYKV-C5AZm1C_feU" name="Percept">
-    <mxGraphModel dx="1462" dy="4071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="4089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1469,7 +1515,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nkWgDV8RXNFLvfwFPxfb" name="Hudi">
-    <mxGraphModel dx="1462" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1507,38 +1553,38 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rxkksYw_DfTll25PqGfm" name="HBO">
-    <mxGraphModel dx="1438" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LjNdMehcAKFYtK15x8xL-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+        <mxCell id="LjNdMehcAKFYtK15x8xL-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="200" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LjNdMehcAKFYtK15x8xL-2" value="痛点：调优难，内存浪费，大促任务" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="LjNdMehcAKFYtK15x8xL-2" value="痛点：调优难，内存浪费，大促任务" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LjNdMehcAKFYtK15x8xL-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;" edge="1" parent="1">
+        <mxCell id="LjNdMehcAKFYtK15x8xL-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="229.5" as="sourcePoint" />
             <mxPoint x="420" y="229.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LjNdMehcAKFYtK15x8xL-6" value="HBO解决方案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+        <mxCell id="LjNdMehcAKFYtK15x8xL-6" value="HBO解决方案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="180" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LjNdMehcAKFYtK15x8xL-9" value="Spark" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjNdMehcAKFYtK15x8xL-9" value="Spark" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="445" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LjNdMehcAKFYtK15x8xL-10" value="HMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjNdMehcAKFYtK15x8xL-10" value="HMS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="340" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LjNdMehcAKFYtK15x8xL-11" value="数据预处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LjNdMehcAKFYtK15x8xL-11" value="数据预处理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="385" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LjNdMehcAKFYtK15x8xL-14" value="模型训练" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="LjNdMehcAKFYtK15x8xL-14" value="模型训练" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="385" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LjNdMehcAKFYtK15x8xL-16" value="怎么根据历史数据生成模型，怎么获取最新数据大小，怎么推测设置新参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+        <mxCell id="LjNdMehcAKFYtK15x8xL-16" value="怎么根据历史数据生成模型，怎么获取最新数据大小，怎么推测设置新参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="30" width="470" height="30" as="geometry" />
         </mxCell>
       </root>
