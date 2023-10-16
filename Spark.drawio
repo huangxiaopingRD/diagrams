@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T07:51:10.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="8nPusUpmSk_O9Zim-xxn" version="21.7.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-10-16T08:56:44.239Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="6ATC_cpCZuHJCe0KFNvE" version="22.0.4" type="github" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
-    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -662,47 +662,47 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JUiEKcfdjby-6tYVQ9d1" name="Spark源码解析">
-    <mxGraphModel dx="1080" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Spark File Commit Protocol&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Spark File Commit Protocol&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="10" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-2" value="FileCommitProtocol" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-2" value="FileCommitProtocol" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="60" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-5" value="+&amp;nbsp;setupJob(): Unit&lt;br&gt;+ commitJob&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;+ abortJob(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+&amp;nbsp;setupTask(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ commitTask(): Unit&lt;br&gt;+&amp;nbsp;abortTask(): Unit&lt;br&gt;+&amp;nbsp;deleteWithJob(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+&amp;nbsp;newTaskTempFile(): Unit&lt;br&gt;+&amp;nbsp;newTaskTempFileAbsPath(): Unit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sXbvulRh3RuNyMxtwsCi-2">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-5" value="+&amp;nbsp;setupJob(): Unit&lt;br&gt;+ commitJob&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;+ abortJob(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+&amp;nbsp;setupTask(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ commitTask(): Unit&lt;br&gt;+&amp;nbsp;abortTask(): Unit&lt;br&gt;+&amp;nbsp;deleteWithJob(): Unit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+&amp;nbsp;newTaskTempFile(): Unit&lt;br&gt;+&amp;nbsp;newTaskTempFileAbsPath(): Unit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sXbvulRh3RuNyMxtwsCi-2" vertex="1">
           <mxGeometry y="26" width="200" height="154" as="geometry" />
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXbvulRh3RuNyMxtwsCi-6" target="sXbvulRh3RuNyMxtwsCi-10">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sXbvulRh3RuNyMxtwsCi-6" target="sXbvulRh3RuNyMxtwsCi-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-6" value="FileCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-6" value="FileCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="449" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-9" value="ManifestFileCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-9" value="ManifestFileCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="289" y="140" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXbvulRh3RuNyMxtwsCi-10" target="sXbvulRh3RuNyMxtwsCi-11">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sXbvulRh3RuNyMxtwsCi-10" target="sXbvulRh3RuNyMxtwsCi-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-10" value="HadoopMapReduceCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-10" value="HadoopMapReduceCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="549" y="140" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-11" value="SQLHadoopMapReduceCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-11" value="SQLHadoopMapReduceCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="449" y="233" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-12" value="HadoopMapRedCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-12" value="HadoopMapRedCommitProtocol" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="679" y="233" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sXbvulRh3RuNyMxtwsCi-10" target="sXbvulRh3RuNyMxtwsCi-12">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="sXbvulRh3RuNyMxtwsCi-10" target="sXbvulRh3RuNyMxtwsCi-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="669" y="190" as="sourcePoint" />
             <mxPoint x="569" y="243" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sXbvulRh3RuNyMxtwsCi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="sXbvulRh3RuNyMxtwsCi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="509" y="80" as="sourcePoint" />
             <mxPoint x="368" y="140" as="targetPoint" />
@@ -1587,6 +1587,14 @@
         <mxCell id="LjNdMehcAKFYtK15x8xL-16" value="怎么根据历史数据生成模型，怎么获取最新数据大小，怎么推测设置新参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="30" width="470" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cmZKAYifrHybLXIphMTh" name="Spark Resource Manager">
+    <mxGraphModel dx="1482" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
