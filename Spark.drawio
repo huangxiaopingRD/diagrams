@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T06:49:14.272Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="S5Oo81ZCVraFd-6AG8wt" version="22.0.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-10-19T07:12:28.300Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="U1cf7eTNWsdsmKcLyK3m" version="22.0.4" type="github" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1591,7 +1591,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cmZKAYifrHybLXIphMTh" name="Spark Resource Manager">
-    <mxGraphModel dx="1553" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1852,7 +1852,7 @@
           <mxGeometry x="1216" y="872" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-63" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1276" y="409" width="10" height="111" as="geometry" />
+          <mxGeometry x="1276" y="409" width="10" height="411" as="geometry" />
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-65" value="" style="endArrow=open;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1878,20 +1878,116 @@
         <mxCell id="MZ68j7Q938TYIjRHxvLE-69" value="计算需要的资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1348" y="453" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MZ68j7Q938TYIjRHxvLE-70" value="YarnAllocator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1362" y="148" width="130" height="40" as="geometry" />
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-70" value="AMRMClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1374" y="148" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1422" y="188" as="sourcePoint" />
-            <mxPoint x="1422" y="871" as="targetPoint" />
+            <mxPoint x="1434" y="188" as="sourcePoint" />
+            <mxPoint x="1434" y="871" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MZ68j7Q938TYIjRHxvLE-72" value="YarnAllocator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1357" y="871" width="130" height="40" as="geometry" />
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-72" value="AMRMClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1369" y="871" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-76" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1400" y="483" width="10" height="50" as="geometry" />
+          <mxGeometry x="1428" y="483" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-77" value="allocate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="MZ68j7Q938TYIjRHxvLE-76">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1289" y="505" as="sourcePoint" />
+            <mxPoint x="1415" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-78" value="handleAllocatedContainers" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1288" y="529" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1318" y="559" />
+            </Array>
+            <mxPoint x="1293" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-79" value="matchContainerToRequest" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1288" y="567" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1318" y="597" />
+            </Array>
+            <mxPoint x="1293" y="597" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-80" value="移除已经申请到了的container请求根据申请，考虑node-local , rack-local, any" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="588" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-81" value="removeContainerRequest" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1296" y="660" as="sourcePoint" />
+            <mxPoint x="1422" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-82" value="internalReleaseContainer" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1295" y="703" as="sourcePoint" />
+            <mxPoint x="1421" y="703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-83" value="释放多余的container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="699" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-84" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1429" y="657" width="10" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-89" value="runAllocatedContainers" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1287" y="737" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1317" y="767" />
+            </Array>
+            <mxPoint x="1292" y="767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-90" value="ExecutorRunnable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1518" y="148" width="122" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1578" y="188" as="sourcePoint" />
+            <mxPoint x="1578" y="871" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-92" value="ExecutorRunnable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1513" y="871" width="117" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-93" value="run" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1290" y="800" as="sourcePoint" />
+            <mxPoint x="1570" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-94" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1572" y="779" width="10" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-96" value="NMClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="148" width="122" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1705" y="188" as="sourcePoint" />
+            <mxPoint x="1705" y="871" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-98" value="NMClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="871" width="117" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-99" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1699" y="789" width="10" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-100" value="startContainer" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1588" y="820" as="sourcePoint" />
+            <mxPoint x="1697.0000000000005" y="820.0000000000002" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
