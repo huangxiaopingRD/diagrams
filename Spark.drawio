@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T07:36:12.709Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="46S6N7y0EkfBaSDp2UKV" version="22.0.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-10-19T08:16:29.251Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="vNZtSOJTrZGXGsXioXfX" version="22.0.4" type="github" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -662,7 +662,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JUiEKcfdjby-6tYVQ9d1" name="Spark源码解析">
-    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2080,6 +2080,108 @@
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-124" value="Executor启动后注册到Driver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2060" y="100" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NiiOGWk4Wpce2QD-ehY6-1" target="NiiOGWk4Wpce2QD-ehY6-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="1135" as="sourcePoint" />
+            <mxPoint x="115" y="1235" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1170" />
+              <mxPoint x="245" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NiiOGWk4Wpce2QD-ehY6-1" target="NiiOGWk4Wpce2QD-ehY6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-1" value="«interface»&lt;br&gt;&lt;b&gt;SparkApplication&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1070" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-4" value="JavaMainApplication" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-9" value="ClientApp" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-10" value="&amp;nbsp; YarnClusterApplication" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1220" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-11" value="KubernetesClientApplication" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1220" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-12" value="RestSubmissionClientApp" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="626" y="1220" width="144" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.579;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NiiOGWk4Wpce2QD-ehY6-1" target="NiiOGWk4Wpce2QD-ehY6-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1130" as="sourcePoint" />
+            <mxPoint x="125" y="1230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1170" />
+              <mxPoint x="709" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1120" as="sourcePoint" />
+            <mxPoint x="530" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1170" />
+              <mxPoint x="530" y="1170" />
+              <mxPoint x="530" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="NiiOGWk4Wpce2QD-ehY6-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1120" as="sourcePoint" />
+            <mxPoint x="255" y="1230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="NiiOGWk4Wpce2QD-ehY6-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="1460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="435" y="1500" />
+              <mxPoint x="253" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-16" value="«interface»&lt;br&gt;&lt;b&gt;ExternalClusterManager&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1410" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-19" value="YarnClusterManager" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1540" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-22" value="MesosClusterManager" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1540" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-23" value="KubernetesClusterManager" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516" y="1540" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="1460" as="sourcePoint" />
+            <mxPoint x="610" y="1540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="435" y="1500" />
+              <mxPoint x="610" y="1500" />
+              <mxPoint x="610" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NiiOGWk4Wpce2QD-ehY6-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="1489" as="sourcePoint" />
+            <mxPoint x="435" y="1540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="435" y="1460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
