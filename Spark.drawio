@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T07:17:00.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="4mxTptmD4mL4VTB6OCr7" version="22.0.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-10-19T07:30:56.042Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="_eWc24_GIco_-cfrLqvJ" version="22.0.4" type="github" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2008,7 +2008,7 @@
           <mxGeometry x="1803" y="873" width="207" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-106" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1901" y="220" width="10" height="40" as="geometry" />
+          <mxGeometry x="1901" y="220" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-107" value="main" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="MZ68j7Q938TYIjRHxvLE-106" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -2017,6 +2017,60 @@
               <mxPoint x="1936" y="230" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-110" value="CoarseGrainedExecutorBackend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2018" y="148" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2102.88" y="189" as="sourcePoint" />
+            <mxPoint x="2102.88" y="872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-112" value="CoarseGrainedExecutorBackend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2018" y="875" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-113" value="onStart" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="MZ68j7Q938TYIjRHxvLE-114">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1911" y="262" as="sourcePoint" />
+            <mxPoint x="1991" y="262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-114" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2098" y="249" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-115" value="CoarseGrainedSchedulerBackend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2212" y="149" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2296.88" y="188" as="sourcePoint" />
+            <mxPoint x="2296.88" y="871" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-117" value="CoarseGrainedSchedulerBackend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2207" y="876" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-118" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2292" y="260" width="10" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-119" value="ref.ask(RegisterExecutor)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2110" y="275" as="sourcePoint" />
+            <mxPoint x="2293" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-120" value="receiveAndReply(case RegisterExecutor)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2303" y="286" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2333" y="316" />
+            </Array>
+            <mxPoint x="2308" y="316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-121" value="将注册的executor添加到executorDataMap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="309" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
