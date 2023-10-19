@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T07:30:56.042Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="_eWc24_GIco_-cfrLqvJ" version="22.0.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-10-19T07:36:12.709Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="46S6N7y0EkfBaSDp2UKV" version="22.0.4" type="github" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1678,7 +1678,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-14" value="以Spark on Yarn的cluster mode解析相关源码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="270" height="60" as="geometry" />
+          <mxGeometry x="10" y="20" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-15" value="YarnClusterApplication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="445" y="873" width="130" height="40" as="geometry" />
@@ -2071,6 +2071,15 @@
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-121" value="将注册的executor添加到executorDataMap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2326" y="309" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-122" value="提交Spark任务到Yarn集群，启动AM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-123" value="AM启动后向RM申请资源，向NM启动container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1309" y="90" width="271" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-124" value="Executor启动后注册到Driver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="100" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
