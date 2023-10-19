@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T07:12:28.300Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="U1cf7eTNWsdsmKcLyK3m" version="22.0.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-10-19T07:17:00.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="4mxTptmD4mL4VTB6OCr7" version="22.0.4" type="github" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1591,7 +1591,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cmZKAYifrHybLXIphMTh" name="Spark Resource Manager">
-    <mxGraphModel dx="1853" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="5667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1987,6 +1987,35 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1588" y="820" as="sourcePoint" />
             <mxPoint x="1697.0000000000005" y="820.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-101" value="" style="endArrow=open;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1780" y="-10" as="sourcePoint" />
+            <mxPoint x="1780" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-102" value="YarnCoarseGrainedExecutorBackend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1803" y="148" width="207" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1905.88" y="187" as="sourcePoint" />
+            <mxPoint x="1905.88" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-105" value="YarnCoarseGrainedExecutorBackend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1803" y="873" width="207" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-106" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1901" y="220" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MZ68j7Q938TYIjRHxvLE-107" value="main" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="MZ68j7Q938TYIjRHxvLE-106" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1906" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1936" y="230" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
