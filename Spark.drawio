@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T09:04:30.629Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="p-vLvryzdG9wkZ1YIaYF" version="22.0.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-03-08T03:56:45.868Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="1uYDqNksI2gSiUJ1OhBC" version="24.0.2" type="github" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
-    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -662,7 +662,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JUiEKcfdjby-6tYVQ9d1" name="Spark源码解析">
-    <mxGraphModel dx="1482" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -711,6 +711,54 @@
               <mxPoint x="368" y="110" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Spark Join&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBT6NLJCvsoKJXsaA2n2-2" target="aBT6NLJCvsoKJXsaA2n2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBT6NLJCvsoKJXsaA2n2-2" target="aBT6NLJCvsoKJXsaA2n2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBT6NLJCvsoKJXsaA2n2-2" target="aBT6NLJCvsoKJXsaA2n2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-2" value="HashJoin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="459" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aBT6NLJCvsoKJXsaA2n2-3" target="aBT6NLJCvsoKJXsaA2n2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-3" value="ShuffleJoin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="459" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-4" value="ShuffledHashJoinExec" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="554" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-5" value="BroadcastHashJoinExec" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="554" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-9" value="SortMergeJoinExec" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="554" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.313;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="229" y="527" as="sourcePoint" />
+            <mxPoint x="359.0799999999999" y="557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-14" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="640" width="440" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-15" value="SortMergeJoinExec" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="109" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-16" value="doExecute" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aBT6NLJCvsoKJXsaA2n2-17" value="&lt;div style=&quot;text-align: justify;&quot;&gt;每一种不同的JoinType会有不同的Scanner和Iterator&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;SortMergeJoinScanner&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SortMergeFullOuterJoinScanner&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RowIterator&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div&gt;LeftOuterIterator&lt;/div&gt;&lt;div&gt;RightOuterIterator&lt;/div&gt;&lt;div&gt;OneSideOuterIterator&lt;/div&gt;&lt;div&gt;FullOuterIterator&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="680" width="450" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
