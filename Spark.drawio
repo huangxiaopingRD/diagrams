@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T02:22:33.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="oNiwGwOxw-NS5lFB5QLt" version="24.2.8" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-04-25T09:49:09.271Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="PIeYwC6ORC67pF1mnVdD" version="24.2.8" type="github" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -789,6 +789,92 @@
         </mxCell>
         <mxCell id="V-ArPgfPNw9PP2l7hjLz-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;BaseSessionStateBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ session: SparkSession&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ parentState： Option[SessionState]&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ conf: SQLConf&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ functionRegistry: FunctionRegistry&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ tableFunctionRegistry:&amp;nbsp;TableFunctionRegistry&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;sqlParser: ParserInterface&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;resourceLoader: SessionResourceLoader&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;catalog: SessionCatalog&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;v2SessionCatalog: V2SessionCatalog&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;catalogManager: CatalogManager&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ extensions(): SparkSessionExtensions&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;udfRegistration(): UDFRegistration&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;analyzer(): Analyzer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;planner():&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SparkPlanner&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;streamingQueryManager():S&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;treamingQueryManager&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;listenerManager():&amp;nbsp;ExecutionListenerManager&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ build(): SessionState&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1180" y="220" width="295" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="295" as="sourcePoint" />
+            <mxPoint x="1730" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jtwVQ5tJCjWcZeQTrku-1" target="9jtwVQ5tJCjWcZeQTrku-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2000" y="295" />
+              <mxPoint x="2065" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2030" y="295" as="sourcePoint" />
+            <mxPoint x="2260" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FunctionRegistryBase&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="210" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="9jtwVQ5tJCjWcZeQTrku-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1715" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jtwVQ5tJCjWcZeQTrku-5" target="9jtwVQ5tJCjWcZeQTrku-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2055" y="430" />
+              <mxPoint x="1995" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-5" value="TableFunctionRegistry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="340" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9jtwVQ5tJCjWcZeQTrku-6" target="9jtwVQ5tJCjWcZeQTrku-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jtwVQ5tJCjWcZeQTrku-6" target="9jtwVQ5tJCjWcZeQTrku-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-6" value="EmptyFunctionRegistryBase" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="335" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jtwVQ5tJCjWcZeQTrku-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2000" y="295" />
+              <mxPoint x="1880" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-10" value="SimpleFunctionRegistry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="470" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-11" value="SimpleTableFunctionRegistry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="470" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-18" value="FunctionRegistry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="340" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9jtwVQ5tJCjWcZeQTrku-19" target="9jtwVQ5tJCjWcZeQTrku-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1880" y="430" />
+              <mxPoint x="1785" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9jtwVQ5tJCjWcZeQTrku-19" target="9jtwVQ5tJCjWcZeQTrku-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-19" value="SimpleFunctionRegistryBase" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="340" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-22" value="EmptyFunctionRegistry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="470" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9jtwVQ5tJCjWcZeQTrku-23" value="EmptyTableFunctionRegistry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="470" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
