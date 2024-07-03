@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T03:38:19.227Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="uijQD14bFbNih-TyEAvQ" version="24.4.8" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-07-03T09:04:20.583Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="lbg6nR22I7rhIuvb5IwN" version="24.6.2" type="github" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1849,7 +1849,7 @@
             <mxPoint y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-2" value="计算热表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="SJfR8GEfyk3Yy67cH9jL-2" value="计算output表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="1040" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SJfR8GEfyk3Yy67cH9jL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SJfR8GEfyk3Yy67cH9jL-3" target="SJfR8GEfyk3Yy67cH9jL-6" edge="1">
@@ -1915,7 +1915,7 @@
         <mxCell id="SJfR8GEfyk3Yy67cH9jL-22" value="将local sort参数写入HBase" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="535" y="1258" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Kor9f3aGAmf71k2tKwMV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Kor9f3aGAmf71k2tKwMV-2">
+        <mxCell id="Kor9f3aGAmf71k2tKwMV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="1035" as="sourcePoint" />
           </mxGeometry>
