@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1848,7 +1848,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rxkksYw_DfTll25PqGfm" name="HBO">
-    <mxGraphModel dx="1462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1484" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1964,86 +1964,91 @@
           <mxGeometry x="495" y="780" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SJfR8GEfyk3Yy67cH9jL-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Local Sort&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="890" width="190" height="30" as="geometry" />
+          <mxGeometry x="10" y="910" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SJfR8GEfyk3Yy67cH9jL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SJfR8GEfyk3Yy67cH9jL-2" target="SJfR8GEfyk3Yy67cH9jL-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-18" value="输出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SJfR8GEfyk3Yy67cH9jL-7" vertex="1" connectable="0">
-          <mxGeometry x="-0.3067" y="-3" relative="1" as="geometry">
-            <mxPoint y="4" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-2" value="计算output表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1040" width="110" height="60" as="geometry" />
+        <mxCell id="SJfR8GEfyk3Yy67cH9jL-2" value="Collect output table" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="1040" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SJfR8GEfyk3Yy67cH9jL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SJfR8GEfyk3Yy67cH9jL-3" target="SJfR8GEfyk3Yy67cH9jL-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-3" value="计算Sort Columns" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="1040" width="110" height="60" as="geometry" />
+        <mxCell id="SJfR8GEfyk3Yy67cH9jL-3" value="Compute Sort Columns Program&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="1040" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SJfR8GEfyk3Yy67cH9jL-4" value="HMS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="1310" width="110" height="60" as="geometry" />
+          <mxGeometry x="40" y="1190" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SJfR8GEfyk3Yy67cH9jL-5" target="SJfR8GEfyk3Yy67cH9jL-4" edge="1">
+        <mxCell id="jmX9HCKo4nEBdeFs_nUD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SJfR8GEfyk3Yy67cH9jL-5" target="SJfR8GEfyk3Yy67cH9jL-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-5" value="HBO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1190" width="110" height="60" as="geometry" />
+        <mxCell id="SJfR8GEfyk3Yy67cH9jL-5" value="HBase" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="1190" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SJfR8GEfyk3Yy67cH9jL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SJfR8GEfyk3Yy67cH9jL-6" target="SJfR8GEfyk3Yy67cH9jL-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-10" value="评估后有收益, 存入HBase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SJfR8GEfyk3Yy67cH9jL-9" vertex="1" connectable="0">
+        <mxCell id="SJfR8GEfyk3Yy67cH9jL-10" value="3.with profit after evaluate，write sort columns to HBase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SJfR8GEfyk3Yy67cH9jL-9" vertex="1" connectable="0">
           <mxGeometry x="-0.1556" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="145" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-6" value="评估Sort Columns" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1040" width="110" height="60" as="geometry" />
+        <mxCell id="SJfR8GEfyk3Yy67cH9jL-6" value="Evaluate Sort Columns Program" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="565" y="1040" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-11" value="HBase" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="1310" width="110" height="60" as="geometry" />
+        <mxCell id="jmX9HCKo4nEBdeFs_nUD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SJfR8GEfyk3Yy67cH9jL-11" target="SJfR8GEfyk3Yy67cH9jL-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-15" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=0.609;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.382;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="SJfR8GEfyk3Yy67cH9jL-11" value="HBO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="1190" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJfR8GEfyk3Yy67cH9jL-15" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0103" relative="1" as="geometry">
-            <mxPoint x="522.99" y="1040" as="sourcePoint" />
+            <mxPoint x="640" y="1040" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="523" y="960" />
-              <mxPoint x="293" y="960" />
+              <mxPoint x="640" y="1038" />
+              <mxPoint x="640" y="958" />
+              <mxPoint x="290" y="958" />
             </Array>
-            <mxPoint x="293.02" y="1041.98" as="targetPoint" />
+            <mxPoint x="340" y="1030" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-16" value="评估后没有收益" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SJfR8GEfyk3Yy67cH9jL-15" vertex="1" connectable="0">
+        <mxCell id="SJfR8GEfyk3Yy67cH9jL-16" value="3.without profit after evaluate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SJfR8GEfyk3Yy67cH9jL-15" vertex="1" connectable="0">
           <mxGeometry x="-0.801" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="82" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-17" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;重新计算Sort columns&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="325" y="938" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.382;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SJfR8GEfyk3Yy67cH9jL-5" target="SJfR8GEfyk3Yy67cH9jL-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="1300" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="505" y="1280" />
-              <mxPoint x="561" y="1280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-21" value="添加sort columns到HMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="335" y="1258" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SJfR8GEfyk3Yy67cH9jL-22" value="将local sort参数写入HBase" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="535" y="1258" width="170" height="30" as="geometry" />
+        <mxCell id="SJfR8GEfyk3Yy67cH9jL-17" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Recalculate Sort columns&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="380" y="930" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kor9f3aGAmf71k2tKwMV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="1035" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jmX9HCKo4nEBdeFs_nUD-2" value="&amp;nbsp;1.compute sort columns" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1040" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jmX9HCKo4nEBdeFs_nUD-3" value="&amp;nbsp;2.evaluate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1040" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jmX9HCKo4nEBdeFs_nUD-7" value="5.alter table with sort columns" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jmX9HCKo4nEBdeFs_nUD-8" value="4.obtain sort columns" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1190" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jmX9HCKo4nEBdeFs_nUD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="1231" as="sourcePoint" />
+            <mxPoint x="578" y="1231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmX9HCKo4nEBdeFs_nUD-11" value="6.store local sort configs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="443" y="1230" width="137" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
