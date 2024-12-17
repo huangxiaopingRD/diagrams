@@ -2215,6 +2215,12 @@
         <mxCell id="NHANgGvFuqt8jEBONlXs-2" value="Filter Columns (Hudi)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="1370" width="110" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NHANgGvFuqt8jEBONlXs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NHANgGvFuqt8jEBONlXs-3" target="NHANgGvFuqt8jEBONlXs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NHANgGvFuqt8jEBONlXs-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NHANgGvFuqt8jEBONlXs-3" target="NHANgGvFuqt8jEBONlXs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NHANgGvFuqt8jEBONlXs-3" value="Sort Columns&lt;div&gt;(Hudi)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="1530" width="110" height="60" as="geometry" />
         </mxCell>
