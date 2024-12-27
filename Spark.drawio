@@ -2308,7 +2308,7 @@
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-4" target="fblT2_wCB_Mu2VwnCFSv-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fblT2_wCB_Mu2VwnCFSv-4" value="选择Column 系数高的作为第一个Sort Column" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fblT2_wCB_Mu2VwnCFSv-4" value="选择Column 系数最高的作为Sort Column" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="2140" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-6" target="fblT2_wCB_Mu2VwnCFSv-13">
