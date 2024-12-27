@@ -2294,16 +2294,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-19" value="计算Column系数" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="1930" width="120" height="50" as="geometry" />
+          <mxGeometry x="730" y="1970" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-22" value="Column系数 =&amp;nbsp;&amp;nbsp;重复率 * （1-压缩率 ）* 存储占比" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="840" y="1940" width="300" height="30" as="geometry" />
+          <mxGeometry x="840" y="1980" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AulOBQYzQFR5aByKFd7C-23" target="fblT2_wCB_Mu2VwnCFSv-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-23" value="生成候选Column List" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1990" width="120" height="50" as="geometry" />
+          <mxGeometry x="180" y="1970" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-4" target="fblT2_wCB_Mu2VwnCFSv-6">
           <mxGeometry relative="1" as="geometry" />
@@ -2315,25 +2315,39 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-6" value="执行Sort，评估收益" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="2140" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="fblT2_wCB_Mu2VwnCFSv-19" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-13" target="fblT2_wCB_Mu2VwnCFSv-17">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="590" y="2140" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-13" target="fblT2_wCB_Mu2VwnCFSv-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fblT2_wCB_Mu2VwnCFSv-52" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fblT2_wCB_Mu2VwnCFSv-42">
+          <mxGeometry x="0.2455" relative="1" as="geometry">
+            <mxPoint x="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fblT2_wCB_Mu2VwnCFSv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-13" target="fblT2_wCB_Mu2VwnCFSv-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="2495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fblT2_wCB_Mu2VwnCFSv-51" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fblT2_wCB_Mu2VwnCFSv-50">
+          <mxGeometry x="-0.598" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-13" value="收益达是否到预期" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="2280" width="120" height="80" as="geometry" />
+          <mxGeometry x="590" y="2280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-17" target="fblT2_wCB_Mu2VwnCFSv-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-17" value="输出最终的Sort Columns List" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="2530" width="120" height="50" as="geometry" />
+          <mxGeometry x="375" y="2470" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-21" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
-          <mxGeometry x="560" y="2660" width="100" height="60" as="geometry" />
+          <mxGeometry x="385" y="2620" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-40" target="fblT2_wCB_Mu2VwnCFSv-41">
           <mxGeometry relative="1" as="geometry" />
