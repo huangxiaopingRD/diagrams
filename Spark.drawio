@@ -1998,7 +1998,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rxkksYw_DfTll25PqGfm" name="HBO">
-    <mxGraphModel dx="1828" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2375,7 +2375,7 @@
           <mxGeometry x="180" y="2280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-53" value="the strategy by showing that columns with the same cardinality should be ordered from high skewness to low skewness." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="870" y="2265" width="660" height="30" as="geometry" />
+          <mxGeometry x="700" y="2240" width="660" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
