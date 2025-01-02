@@ -1998,7 +1998,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rxkksYw_DfTll25PqGfm" name="HBO">
-    <mxGraphModel dx="3668" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="4167" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2422,7 +2422,7 @@
         <mxCell id="04LiKtSafjKISyD40qtU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-15" target="fblT2_wCB_Mu2VwnCFSv-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-15" value="移除与已选Column相关性的列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+        <mxCell id="04LiKtSafjKISyD40qtU-15" value="移除与已选Column强相关的列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="340" y="2295" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
