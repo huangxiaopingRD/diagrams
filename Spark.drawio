@@ -2278,7 +2278,7 @@
         <mxCell id="AulOBQYzQFR5aByKFd7C-11" value="计算列存储占比" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
           <mxGeometry x="520" y="1826" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AulOBQYzQFR5aByKFd7C-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AulOBQYzQFR5aByKFd7C-14" target="AulOBQYzQFR5aByKFd7C-19" edge="1">
+        <mxCell id="04LiKtSafjKISyD40qtU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AulOBQYzQFR5aByKFd7C-14" target="04LiKtSafjKISyD40qtU-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-14" value="计算列压缩率" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
@@ -2294,10 +2294,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-19" value="计算Column系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
-          <mxGeometry x="730" y="1951" width="120" height="50" as="geometry" />
+          <mxGeometry x="455" y="1951" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-22" value="Column系数 =&amp;nbsp;&amp;nbsp;重复率 * （1-压缩率 ）* 存储占比" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="840" y="1980" width="300" height="30" as="geometry" />
+          <mxGeometry x="370" y="1921" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AulOBQYzQFR5aByKFd7C-23" target="fblT2_wCB_Mu2VwnCFSv-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2412,6 +2412,12 @@
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-9" value="执行Sort，评估收益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="-210" y="2390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="04LiKtSafjKISyD40qtU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-12" target="AulOBQYzQFR5aByKFd7C-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="04LiKtSafjKISyD40qtU-12" value="过滤部分存储占比过小的Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1951" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
