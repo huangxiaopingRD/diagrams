@@ -2396,16 +2396,22 @@
         <mxCell id="04LiKtSafjKISyD40qtU-1" value="收益达是否到预期" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="-10" y="2280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="2510" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-150" y="2510" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="04LiKtSafjKISyD40qtU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-4" target="04LiKtSafjKISyD40qtU-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-4" value="选择压缩率最大的Column" style="whiteSpace=wrap;html=1;fillColor=#FF6666;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-210" y="2295" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="04LiKtSafjKISyD40qtU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-9" target="fblT2_wCB_Mu2VwnCFSv-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="2510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-150" y="2505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04LiKtSafjKISyD40qtU-9" value="执行Sort，评估收益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="2390" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
