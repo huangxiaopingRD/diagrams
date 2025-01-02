@@ -2305,10 +2305,10 @@
         <mxCell id="AulOBQYzQFR5aByKFd7C-23" value="生成候选Column List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="180" y="1951" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fblT2_wCB_Mu2VwnCFSv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-4" target="fblT2_wCB_Mu2VwnCFSv-6" edge="1">
+        <mxCell id="04LiKtSafjKISyD40qtU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-4" target="04LiKtSafjKISyD40qtU-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fblT2_wCB_Mu2VwnCFSv-4" value="选择Column 系数最高的作为Sort Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
+        <mxCell id="fblT2_wCB_Mu2VwnCFSv-4" value="从候选Column List选择Column 系数最高的作为Sort Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
           <mxGeometry x="180" y="2080" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-6" target="fblT2_wCB_Mu2VwnCFSv-13" edge="1">
@@ -2422,8 +2422,16 @@
         <mxCell id="04LiKtSafjKISyD40qtU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-15" target="fblT2_wCB_Mu2VwnCFSv-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-15" value="移除与已选Column强相关的列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+        <mxCell id="04LiKtSafjKISyD40qtU-15" value="移除候选Column List中与已选Column强相关的列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="340" y="2295" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="04LiKtSafjKISyD40qtU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="2105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04LiKtSafjKISyD40qtU-18" value="生成Sort Colum List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2080" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
