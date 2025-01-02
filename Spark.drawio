@@ -2338,7 +2338,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-13" value="收益达是否到预期" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="710" y="2280" width="112.5" height="80" as="geometry" />
+          <mxGeometry x="708.75" y="2280" width="112.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-17" target="fblT2_wCB_Mu2VwnCFSv-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
