@@ -2294,7 +2294,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-19" value="计算Column系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
-          <mxGeometry x="730" y="1970" width="120" height="50" as="geometry" />
+          <mxGeometry x="730" y="1951" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-22" value="Column系数 =&amp;nbsp;&amp;nbsp;重复率 * （1-压缩率 ）* 存储占比" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="840" y="1980" width="300" height="30" as="geometry" />
@@ -2303,19 +2303,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-23" value="生成候选Column List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1970" width="120" height="50" as="geometry" />
+          <mxGeometry x="180" y="1951" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-4" target="fblT2_wCB_Mu2VwnCFSv-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-4" value="选择Column 系数最高的作为Sort Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="180" y="2140" width="120" height="50" as="geometry" />
+          <mxGeometry x="180" y="2080" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-6" target="fblT2_wCB_Mu2VwnCFSv-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-6" value="执行Sort，评估收益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="590" y="2140" width="120" height="50" as="geometry" />
+          <mxGeometry x="590" y="2080" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-13" target="fblT2_wCB_Mu2VwnCFSv-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2380,7 +2380,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-41" value="候选Column List&lt;div&gt;是否为空&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="180" y="2280" width="120" height="80" as="geometry" />
+          <mxGeometry x="180" y="2190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-53" value="the strategy by showing that columns with the same cardinality should be ordered from high skewness to low skewness." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="1761" width="660" height="30" as="geometry" />
