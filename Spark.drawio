@@ -1998,7 +1998,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rxkksYw_DfTll25PqGfm" name="HBO">
-    <mxGraphModel dx="4059" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="4428" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2296,8 +2296,8 @@
         <mxCell id="AulOBQYzQFR5aByKFd7C-19" value="计算Column系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
           <mxGeometry x="455" y="1951" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AulOBQYzQFR5aByKFd7C-22" value="Column系数 =&amp;nbsp;&amp;nbsp;重复率 * （1-压缩率 ）* 存储占比" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1921" width="300" height="30" as="geometry" />
+        <mxCell id="AulOBQYzQFR5aByKFd7C-22" value="Column系数 =&amp;nbsp;&amp;nbsp;重复率 * （1-压缩率 ）* 存储占比&amp;nbsp; &amp;nbsp;（归一化各项特征数据）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1921" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AulOBQYzQFR5aByKFd7C-23" target="fblT2_wCB_Mu2VwnCFSv-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
