@@ -2353,7 +2353,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-40" value="移除候选Column List中已被Sort的Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="505" y="2340" width="120" height="50" as="geometry" />
+          <mxGeometry x="480" y="2400" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="04LiKtSafjKISyD40qtU-1" target="fblT2_wCB_Mu2VwnCFSv-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2433,11 +2433,17 @@
         <mxCell id="04LiKtSafjKISyD40qtU-18" value="生成Sort Colum List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
           <mxGeometry x="430" y="2080" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AUl-yI-aF4YurvQsjzEy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AUl-yI-aF4YurvQsjzEy-2" target="fblT2_wCB_Mu2VwnCFSv-40">
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AUl-yI-aF4YurvQsjzEy-2" target="AUl-yI-aF4YurvQsjzEy-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AUl-yI-aF4YurvQsjzEy-2" value="比较当前Sort&amp;nbsp; Column List 收益率与Max 收益率，保留收益率最大的Sort Column List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="480" y="2225" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AUl-yI-aF4YurvQsjzEy-4" target="fblT2_wCB_Mu2VwnCFSv-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-4" value="收益率相同时选择Skewness更高的Sort Column List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2320" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
