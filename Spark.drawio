@@ -2328,7 +2328,7 @@
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-13" target="fblT2_wCB_Mu2VwnCFSv-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="766" y="2490" />
+              <mxPoint x="765" y="2530" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2344,24 +2344,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-17" value="输出最终的Sort Columns List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B266FF;" parent="1" vertex="1">
-          <mxGeometry x="315" y="2460" width="100" height="60" as="geometry" />
+          <mxGeometry x="310" y="2500" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-21" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
-          <mxGeometry x="315" y="2580" width="100" height="60" as="geometry" />
+          <mxGeometry x="310" y="2610" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-40" target="04LiKtSafjKISyD40qtU-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-40" value="移除候选Column List中已被Sort的Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
           <mxGeometry x="480" y="2400" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="fblT2_wCB_Mu2VwnCFSv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="04LiKtSafjKISyD40qtU-1" target="fblT2_wCB_Mu2VwnCFSv-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fblT2_wCB_Mu2VwnCFSv-47" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fblT2_wCB_Mu2VwnCFSv-45" vertex="1" connectable="0">
-          <mxGeometry x="-0.5683" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-41" target="fblT2_wCB_Mu2VwnCFSv-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2371,47 +2363,47 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-41" target="04LiKtSafjKISyD40qtU-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-41" target="AUl-yI-aF4YurvQsjzEy-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="2330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-3" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="04LiKtSafjKISyD40qtU-2" vertex="1" connectable="0">
-          <mxGeometry x="-0.073" y="1" relative="1" as="geometry">
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AUl-yI-aF4YurvQsjzEy-12">
+          <mxGeometry x="-0.0081" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-41" value="候选Column List&lt;div&gt;是否为空&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="185" y="2190" width="120" height="80" as="geometry" />
+          <mxGeometry x="185" y="2290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-53" value="the strategy by showing that columns with the same cardinality should be ordered from high skewness to low skewness." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="1761" width="660" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="04LiKtSafjKISyD40qtU-1" target="04LiKtSafjKISyD40qtU-4" edge="1">
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-1" target="fblT2_wCB_Mu2VwnCFSv-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="04LiKtSafjKISyD40qtU-5" vertex="1" connectable="0">
-          <mxGeometry x="-0.0272" y="-1" relative="1" as="geometry">
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AUl-yI-aF4YurvQsjzEy-15">
+          <mxGeometry x="-0.2429" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-1" value="最大收益率&lt;div&gt;是否达到预期&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="2190" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AUl-yI-aF4YurvQsjzEy-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-4" target="fblT2_wCB_Mu2VwnCFSv-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-4" value="&amp;nbsp;重置候选Column List" style="whiteSpace=wrap;html=1;fillColor=#CCE5FF;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="2080" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="04LiKtSafjKISyD40qtU-9" target="fblT2_wCB_Mu2VwnCFSv-17" edge="1">
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-1" target="fblT2_wCB_Mu2VwnCFSv-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="2510" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-150" y="2505" />
+              <mxPoint x="-80" y="2105" />
+              <mxPoint x="-80" y="2530" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-9" value="执行Sort，评估收益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="-210" y="2390" width="120" height="50" as="geometry" />
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-18" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AUl-yI-aF4YurvQsjzEy-17">
+          <mxGeometry x="-0.9301" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04LiKtSafjKISyD40qtU-1" value="重置后的候选&lt;div&gt;Column List&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;为空&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#FF6666;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="2065" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="04LiKtSafjKISyD40qtU-12" target="AulOBQYzQFR5aByKFd7C-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2423,7 +2415,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-15" value="移除候选Column List中与已选Column强相关的列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="185" y="2340" width="120" height="50" as="geometry" />
+          <mxGeometry x="185" y="2400" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="04LiKtSafjKISyD40qtU-18" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2455,6 +2447,12 @@
         </mxCell>
         <mxCell id="AUl-yI-aF4YurvQsjzEy-8" value="计算列Skewness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="720" y="1826" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AUl-yI-aF4YurvQsjzEy-11" target="04LiKtSafjKISyD40qtU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-11" value="&amp;nbsp;重置候选Column List" style="whiteSpace=wrap;html=1;fillColor=#CCE5FF;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="2240" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
