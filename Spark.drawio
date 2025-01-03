@@ -2431,7 +2431,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-18" value="生成Sort Colum List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="430" y="2080" width="120" height="50" as="geometry" />
+          <mxGeometry x="450" y="2080" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AUl-yI-aF4YurvQsjzEy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AUl-yI-aF4YurvQsjzEy-2" target="AUl-yI-aF4YurvQsjzEy-4">
           <mxGeometry relative="1" as="geometry" />
