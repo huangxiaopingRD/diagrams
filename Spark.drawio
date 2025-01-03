@@ -1998,7 +1998,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rxkksYw_DfTll25PqGfm" name="HBO">
-    <mxGraphModel dx="4167" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="4059" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2278,7 +2278,7 @@
         <mxCell id="AulOBQYzQFR5aByKFd7C-11" value="计算列存储占比" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
           <mxGeometry x="520" y="1826" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AulOBQYzQFR5aByKFd7C-14" target="04LiKtSafjKISyD40qtU-12">
+        <mxCell id="04LiKtSafjKISyD40qtU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AulOBQYzQFR5aByKFd7C-14" target="04LiKtSafjKISyD40qtU-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-14" value="计算列压缩率" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
@@ -2305,7 +2305,7 @@
         <mxCell id="AulOBQYzQFR5aByKFd7C-23" value="生成候选Column List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="180" y="1951" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-4" target="04LiKtSafjKISyD40qtU-18">
+        <mxCell id="04LiKtSafjKISyD40qtU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-4" target="04LiKtSafjKISyD40qtU-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-4" value="从候选Column List选择Column 系数最高的作为Sort Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
@@ -2349,7 +2349,7 @@
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-21" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="270" y="2600" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-40" target="04LiKtSafjKISyD40qtU-15">
+        <mxCell id="04LiKtSafjKISyD40qtU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-40" target="04LiKtSafjKISyD40qtU-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-40" value="移除候选Column List中已被选中的Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
@@ -2371,10 +2371,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fblT2_wCB_Mu2VwnCFSv-41" target="04LiKtSafjKISyD40qtU-1">
+        <mxCell id="04LiKtSafjKISyD40qtU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-41" target="04LiKtSafjKISyD40qtU-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-3" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="04LiKtSafjKISyD40qtU-2">
+        <mxCell id="04LiKtSafjKISyD40qtU-3" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="04LiKtSafjKISyD40qtU-2" vertex="1" connectable="0">
           <mxGeometry x="-0.073" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2385,24 +2385,24 @@
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-53" value="the strategy by showing that columns with the same cardinality should be ordered from high skewness to low skewness." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="1761" width="660" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-1" target="04LiKtSafjKISyD40qtU-4">
+        <mxCell id="04LiKtSafjKISyD40qtU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="04LiKtSafjKISyD40qtU-1" target="04LiKtSafjKISyD40qtU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="04LiKtSafjKISyD40qtU-5">
+        <mxCell id="04LiKtSafjKISyD40qtU-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="04LiKtSafjKISyD40qtU-5" vertex="1" connectable="0">
           <mxGeometry x="-0.0272" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-1" value="收益率是否到预期" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#FF6666;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="2280" width="120" height="80" as="geometry" />
+        <mxCell id="04LiKtSafjKISyD40qtU-1" value="收益率是否到预期" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#FF6666;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="2190" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-4" target="04LiKtSafjKISyD40qtU-9">
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-4" target="fblT2_wCB_Mu2VwnCFSv-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-4" value="选择压缩率最大的Column" style="whiteSpace=wrap;html=1;fillColor=#FF6666;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="2295" width="120" height="50" as="geometry" />
+        <mxCell id="04LiKtSafjKISyD40qtU-4" value="&amp;nbsp;重置候选Column List" style="whiteSpace=wrap;html=1;fillColor=#FF6666;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="2080" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-9" target="fblT2_wCB_Mu2VwnCFSv-17">
+        <mxCell id="04LiKtSafjKISyD40qtU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="04LiKtSafjKISyD40qtU-9" target="fblT2_wCB_Mu2VwnCFSv-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="2510" as="targetPoint" />
             <Array as="points">
@@ -2410,27 +2410,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-9" value="执行Sort，评估收益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+        <mxCell id="04LiKtSafjKISyD40qtU-9" value="执行Sort，评估收益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
           <mxGeometry x="-210" y="2390" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-12" target="AulOBQYzQFR5aByKFd7C-19">
+        <mxCell id="04LiKtSafjKISyD40qtU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="04LiKtSafjKISyD40qtU-12" target="AulOBQYzQFR5aByKFd7C-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-12" value="过滤部分存储占比过小的Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
+        <mxCell id="04LiKtSafjKISyD40qtU-12" value="过滤部分存储占比过小的Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
           <mxGeometry x="730" y="1951" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-15" target="fblT2_wCB_Mu2VwnCFSv-41">
+        <mxCell id="04LiKtSafjKISyD40qtU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="04LiKtSafjKISyD40qtU-15" target="fblT2_wCB_Mu2VwnCFSv-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-15" value="移除候选Column List中与已选Column强相关的列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+        <mxCell id="04LiKtSafjKISyD40qtU-15" value="移除候选Column List中与已选Column强相关的列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
           <mxGeometry x="340" y="2295" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-18">
+        <mxCell id="04LiKtSafjKISyD40qtU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="04LiKtSafjKISyD40qtU-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="700" y="2105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-18" value="生成Sort Colum List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+        <mxCell id="04LiKtSafjKISyD40qtU-18" value="生成Sort Colum List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
           <mxGeometry x="430" y="2080" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
