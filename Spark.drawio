@@ -2303,13 +2303,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AulOBQYzQFR5aByKFd7C-23" value="生成候选Column List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1951" width="120" height="50" as="geometry" />
+          <mxGeometry x="185" y="1951" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-4" target="04LiKtSafjKISyD40qtU-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fblT2_wCB_Mu2VwnCFSv-4" value="从候选Column List选择Column 系数最高的作为Sort Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="180" y="2080" width="120" height="50" as="geometry" />
+        <mxCell id="fblT2_wCB_Mu2VwnCFSv-4" value="从候选Column List选择Column 系数最高的一个Column作为Sort Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
+          <mxGeometry x="175" y="2080" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-6" target="fblT2_wCB_Mu2VwnCFSv-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2343,17 +2343,17 @@
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-17" target="fblT2_wCB_Mu2VwnCFSv-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fblT2_wCB_Mu2VwnCFSv-17" value="输出最终的Sort Columns List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="1" vertex="1">
-          <mxGeometry x="270" y="2460" width="100" height="60" as="geometry" />
+        <mxCell id="fblT2_wCB_Mu2VwnCFSv-17" value="输出最终的Sort Columns List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B266FF;" parent="1" vertex="1">
+          <mxGeometry x="315" y="2460" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-21" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
-          <mxGeometry x="270" y="2600" width="100" height="60" as="geometry" />
+          <mxGeometry x="315" y="2580" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fblT2_wCB_Mu2VwnCFSv-40" target="04LiKtSafjKISyD40qtU-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-40" value="移除候选Column List中已被Sort的Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="525" y="2340" width="120" height="50" as="geometry" />
+          <mxGeometry x="505" y="2340" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="04LiKtSafjKISyD40qtU-1" target="fblT2_wCB_Mu2VwnCFSv-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2380,7 +2380,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-41" value="候选Column List&lt;div&gt;是否为空&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="180" y="2190" width="120" height="80" as="geometry" />
+          <mxGeometry x="185" y="2190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-53" value="the strategy by showing that columns with the same cardinality should be ordered from high skewness to low skewness." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="1761" width="660" height="30" as="geometry" />
@@ -2399,7 +2399,7 @@
         <mxCell id="AUl-yI-aF4YurvQsjzEy-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="04LiKtSafjKISyD40qtU-4" target="fblT2_wCB_Mu2VwnCFSv-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="04LiKtSafjKISyD40qtU-4" value="&amp;nbsp;重置候选Column List" style="whiteSpace=wrap;html=1;fillColor=#FF6666;rounded=1;" parent="1" vertex="1">
+        <mxCell id="04LiKtSafjKISyD40qtU-4" value="&amp;nbsp;重置候选Column List" style="whiteSpace=wrap;html=1;fillColor=#CCE5FF;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="2080" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="04LiKtSafjKISyD40qtU-9" target="fblT2_wCB_Mu2VwnCFSv-17" edge="1">
@@ -2423,7 +2423,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-15" value="移除候选Column List中与已选Column强相关的列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="180" y="2340" width="120" height="50" as="geometry" />
+          <mxGeometry x="185" y="2340" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="04LiKtSafjKISyD40qtU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="04LiKtSafjKISyD40qtU-18" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2436,8 +2436,8 @@
         <mxCell id="AUl-yI-aF4YurvQsjzEy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AUl-yI-aF4YurvQsjzEy-2" target="fblT2_wCB_Mu2VwnCFSv-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUl-yI-aF4YurvQsjzEy-2" value="比较当前Column 收益率与Max 收益率，保留收益率最大的Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
-          <mxGeometry x="520" y="2225" width="130" height="50" as="geometry" />
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-2" value="比较当前Sort&amp;nbsp; Column List 收益率与Max 收益率，保留收益率最大的Sort Column List" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2225" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
