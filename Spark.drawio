@@ -2353,7 +2353,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-40" value="移除候选Column List中已被Sort的Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="530" y="2340" width="120" height="50" as="geometry" />
+          <mxGeometry x="525" y="2340" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fblT2_wCB_Mu2VwnCFSv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="04LiKtSafjKISyD40qtU-1" target="fblT2_wCB_Mu2VwnCFSv-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2436,8 +2436,8 @@
         <mxCell id="AUl-yI-aF4YurvQsjzEy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AUl-yI-aF4YurvQsjzEy-2" target="fblT2_wCB_Mu2VwnCFSv-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AUl-yI-aF4YurvQsjzEy-2" value="比较当前Column 收益率与Max 收益率，保留收益率最大的" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
-          <mxGeometry x="530" y="2225" width="120" height="50" as="geometry" />
+        <mxCell id="AUl-yI-aF4YurvQsjzEy-2" value="比较当前Column 收益率与Max 收益率，保留收益率最大的Column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2225" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
