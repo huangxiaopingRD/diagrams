@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3" pages="11">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -250,6 +250,70 @@
         </mxCell>
         <mxCell id="AK44yI027jyoz9r89gZ4-68" value="JDBC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="381" y="1273" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-1" value="Spark写Parquet源码分析" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="94" y="1390" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-2" value="FileFormatWriter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="119" y="1430" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-3" value="开始" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="vgidboghyx3bxVuecPJo-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="90" as="sourcePoint" />
+            <mxPoint x="130" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-4" value="ParquetFileFormat" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1430" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-5" value="prepareWrite" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="vgidboghyx3bxVuecPJo-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="90" as="sourcePoint" />
+            <mxPoint x="130" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-6" value="FileFormatDataWriter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="381" y="1430" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-7" value="write" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="vgidboghyx3bxVuecPJo-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="90" as="sourcePoint" />
+            <mxPoint x="130" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-8" value="ParquetOutputWriter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1430" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-9" value="getRecordWriter" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="vgidboghyx3bxVuecPJo-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="90" as="sourcePoint" />
+            <mxPoint x="130" y="90" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-10" value="write" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="562" y="1551" as="sourcePoint" />
+            <mxPoint x="642" y="1551" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-11" value="ParquetWriteSupport" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1430" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-12" value="write" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="vgidboghyx3bxVuecPJo-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="144" as="sourcePoint" />
+            <mxPoint x="130" y="144" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgidboghyx3bxVuecPJo-13" value="writeFields" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="700" y="1606" as="sourcePoint" />
+            <mxPoint x="780" y="1606" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
