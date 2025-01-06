@@ -252,7 +252,7 @@
           <mxGeometry x="381" y="1273" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vgidboghyx3bxVuecPJo-1" value="Spark写Parquet源码分析" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="94" y="1390" width="150" height="30" as="geometry" />
+          <mxGeometry x="120" y="1380" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vgidboghyx3bxVuecPJo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
