@@ -395,7 +395,7 @@
           <mxGeometry x="373" y="2640" width="118" height="40" as="geometry" />
         </mxCell>
         <mxCell id="f2o4t6bte12I62f14kMQ-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="2836" width="530" height="384" as="geometry" />
+          <mxGeometry x="50" y="2836" width="530" height="434" as="geometry" />
         </mxCell>
         <mxCell id="f2o4t6bte12I62f14kMQ-40" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -448,7 +448,7 @@
             <mxPoint x="294" y="2984" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2o4t6bte12I62f14kMQ-60" value="recordWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="f2o4t6bte12I62f14kMQ-60" value="writer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="238" y="3160" width="114" height="40" as="geometry" />
         </mxCell>
         <mxCell id="f2o4t6bte12I62f14kMQ-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -484,6 +484,9 @@
         </mxCell>
         <mxCell id="f2o4t6bte12I62f14kMQ-68" value="&lt;span style=&quot;text-align: left;&quot;&gt;DynamicPartitionDataSingleWriter&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="2380" width="230" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="f2o4t6bte12I62f14kMQ-81" value="writer为OutputWriter中具体执行write的类，可能是fileFormat自己在Spark中实现的writer，也有可能是fileFormat框架里面实现了Hadoop API的RecordWriter" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="3220" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
