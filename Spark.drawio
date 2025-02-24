@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.6" pages="12">
   <diagram id="MtcimsbLI3AoPs-vs3pn" name="Spark DataSource">
     <mxGraphModel dx="1462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3357,6 +3357,59 @@
         </mxCell>
         <mxCell id="MZ68j7Q938TYIjRHxvLE-117" value="CoarseGrainedSchedulerBackend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2212" y="490" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="X42RAz-2G8rfYUa6VSVW" name="Parquet">
+    <mxGraphModel dx="1462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="npSnMcmYBN8pGITkPw9_-2" value="PlainLongDictionaryValuesWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="npSnMcmYBN8pGITkPw9_-3" target="npSnMcmYBN8pGITkPw9_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="npSnMcmYBN8pGITkPw9_-3" target="npSnMcmYBN8pGITkPw9_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="npSnMcmYBN8pGITkPw9_-3" target="npSnMcmYBN8pGITkPw9_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="npSnMcmYBN8pGITkPw9_-3" target="npSnMcmYBN8pGITkPw9_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="npSnMcmYBN8pGITkPw9_-3" target="npSnMcmYBN8pGITkPw9_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="npSnMcmYBN8pGITkPw9_-3" target="npSnMcmYBN8pGITkPw9_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-3" value="DictionaryValuesWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="220" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-5" value="PlainIntegerDictionaryValuesWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="130" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-6" value="PlainFloatDictionaryValuesWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-7" value="PlainDoubleDictionaryValuesWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-8" value="PlainBinaryDictionaryValuesWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="npSnMcmYBN8pGITkPw9_-9" target="npSnMcmYBN8pGITkPw9_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-9" value="PlainBinaryDictionaryValuesWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="410" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npSnMcmYBN8pGITkPw9_-10" value="PlainFixedLenArrayDictionaryValuesWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="410" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
